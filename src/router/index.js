@@ -11,6 +11,12 @@ var routes = [
         import(/* webpackChunkName: "about" */"../pages/Home.vue")
     },
     {
+      path: '/answer',
+      name: 'answer',
+      component: ()=>
+        import(/* webpackChunkName: "about" */"../pages/Answer.vue")
+    },
+    {
       path: '/question',
       name: 'question',
       component: ()=>
